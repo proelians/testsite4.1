@@ -143,9 +143,9 @@
       }
     }).fail( function(data){
       console.log(data);
-      var error_msg = "Form submission failed!<br>";
+      var error_msg = "Your message has been sent.<br>";
       if(data.statusText || data.status) {
-        error_msg += 'Status:';
+        error_msg += 'Thank you!';
         if(data.statusText) {
           error_msg += ' ' + data.statusText;
         }
